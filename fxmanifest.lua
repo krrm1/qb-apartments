@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'QB-Apartments'
+description 'arabcodingteam-Apartments arabcodingteam on top'
 version '1.0.0'
 
 shared_script 'config.lua'
@@ -14,10 +14,10 @@ client_scripts {
 }
 
 dependencies {
-	'qb-core',
-	'qb-interior',
-	'qb-clothing',
-	'qb-weathersync'
+	'arabcodingteam-core',
+	'arabcodingteam-interior',
+	'arabcodingteam-clothing',
+	'arabcodingteam-weathersync'
 }
 
 lua54 'yes'
