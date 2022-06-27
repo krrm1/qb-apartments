@@ -28,7 +28,7 @@ end
 
 -- Events
 
-RegisterNetEvent('qb-apartments:server:SetInsideMeta', function(house, insideId, bool)
+RegisterNetEvent('arabcodingteam-apartments:server:SetInsideMeta', function(house, insideId, bool)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local insideMeta = Player.PlayerData.metadata["inside"]
@@ -49,7 +49,7 @@ RegisterNetEvent('qb-apartments:server:SetInsideMeta', function(house, insideId,
     end
 end)
 
-RegisterNetEvent('qb-apartments:returnBucket', function()
+RegisterNetEvent('arabcodingteam-apartments:returnBucket', function()
     local src = source
     SetPlayerRoutingBucket(src, 0)
 end)
