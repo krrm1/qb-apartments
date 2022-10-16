@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'qb-Apartments arabcodingteam on top'
+description 'qb-Apartments krrm1 on top'
 version '1.0.0'
 
 shared_script 'config.lua'
